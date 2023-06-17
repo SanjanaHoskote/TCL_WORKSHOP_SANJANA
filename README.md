@@ -2,8 +2,11 @@
 ## DAY1 OUTPUT
 <img width="553" alt="image" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/dc8c4e88-007f-44e6-9155-bae5ee71f9c0">
 
-## DAY2 OUTPUT
-```#! /bin/env tclsh
+## DAY2 
+
+### Code
+```tcl
+#! /bin/env tclsh
 
 #-----------------------------------------------------------#
 #----- Checks whether panda usage is correct or not -----#
@@ -53,4 +56,172 @@ puts "DesignName = $DesignName"
 puts "OutputDirectory = $OutputDirectory"
 puts "NetlistDirectory = $NetlistDirectory"
 puts "EarlyLibraryPath = $EarlyLibraryPath"
+#------------------------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------To check if directories and files in .csv file are valid-------------------------------------------------------#
+#------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+if {![file isdirectory $OutputDirectory]} {
+        puts "\n Info: Couln't find output directory in the path $OutputDirectory. Creating it.."
+        file mkdir $OutputDirectory
+} else {
+        puts "\n Found output directory in the path $OutputDirectory"
+}
+
+if {! [file exists $EarlyLibraryPath] } {
+        puts "\nError: Cannot find early cell library in path $EarlyLibraryPath. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Early cell library found in path $EarlyLibraryPath"
+}
+
+
+if {! [file exists $LateLibraryPath]} {
+        puts "\nError: Cannot find late cell library in path $LateLibraryPath. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Late cell library found in path $LateLibraryPath"
+}
+
+if {! [file isdirectory $NetlistDirectory]} {
+        puts "\nError: Cannot find RTL netlist directory in path $NetlistDirectory. Exiting..."
+        exit
+} else {
+        puts "\nInfo: RTL netlist directory found in path $NetlistDirectory"
+}
+
+if {! [file exists $ConstraintsFile] } {
+        puts "\nError: Cannot find constraints file in path $ConstraintsFile. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Constraints file found in path $ConstraintsFile"
+}
+
+
+#Constraints file creation
+#SDC format
+puts "\nInfo: Dumping SDC constraints for $DesignName"
+::struct::matrix constraints
+set chan [open $ConstraintsFile]
+csv::read2matrix $chan constraints , auto
+close $chan
+set number_of_rows [constraints rows]
+puts "number_of_rows = $number_of_rows"
+ #------------------------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------To check if directories and files in .csv file are valid-------------------------------------------------------#
+#------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+if {![file isdirectory $OutputDirectory]} {
+        puts "\n Info: Couln't find output directory in the path $OutputDirectory. Creating it.."
+        file mkdir $OutputDirectory
+} else {
+        puts "\n Found output directory in the path $OutputDirectory"
+}
+
+if {! [file exists $EarlyLibraryPath] } {
+        puts "\nError: Cannot find early cell library in path $EarlyLibraryPath. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Early cell library found in path $EarlyLibraryPath"
+}
+
+
+if {! [file exists $LateLibraryPath]} {
+        puts "\nError: Cannot find late cell library in path $LateLibraryPath. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Late cell library found in path $LateLibraryPath"
+}
+
+if {! [file isdirectory $NetlistDirectory]} {
+        puts "\nError: Cannot find RTL netlist directory in path $NetlistDirectory. Exiting..."
+        exit
+} else {
+        puts "\nInfo: RTL netlist directory found in path $NetlistDirectory"
+}
+
+if {! [file exists $ConstraintsFile] } {
+        puts "\nError: Cannot find constraints file in path $ConstraintsFile. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Constraints file found in path $ConstraintsFile"
+}
+
+
+#Constraints file creation
+#SDC format
+puts "\nInfo: Dumping SDC constraints for $DesignName"
+::struct::matrix constraints
+set chan [open $ConstraintsFile]
+csv::read2matrix $chan constraints , auto
+close $chan
+set number_of_rows [constraints rows]
+puts "number_of_rows = $number_of_rows"
+ #------------------------------------------------------------------------------------------------------------------------------------------------------#
+#---------------------------------------To check if directories and files in .csv file are valid-------------------------------------------------------#
+#------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+if {![file isdirectory $OutputDirectory]} {
+        puts "\n Info: Couln't find output directory in the path $OutputDirectory. Creating it.."
+        file mkdir $OutputDirectory
+} else {
+        puts "\n Found output directory in the path $OutputDirectory"
+}
+
+if {! [file exists $EarlyLibraryPath] } {
+        puts "\nError: Cannot find early cell library in path $EarlyLibraryPath. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Early cell library found in path $EarlyLibraryPath"
+}
+
+
+if {! [file exists $LateLibraryPath]} {
+        puts "\nError: Cannot find late cell library in path $LateLibraryPath. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Late cell library found in path $LateLibraryPath"
+}
+
+if {! [file isdirectory $NetlistDirectory]} {
+        puts "\nError: Cannot find RTL netlist directory in path $NetlistDirectory. Exiting..."
+        exit
+} else {
+        puts "\nInfo: RTL netlist directory found in path $NetlistDirectory"
+}
+
+if {! [file exists $ConstraintsFile] } {
+        puts "\nError: Cannot find constraints file in path $ConstraintsFile. Exiting... "
+        exit
+} else {
+        puts "\nInfo: Constraints file found in path $ConstraintsFile"
+}
+
+
+#Constraints file creation
+#SDC format
+puts "\nInfo: Dumping SDC constraints for $DesignName"
+::struct::matrix constraints
+set chan [open $ConstraintsFile]
+csv::read2matrix $chan constraints , auto
+close $chan
+set number_of_rows [constraints rows]
+puts "number_of_rows = $number_of_rows"
+set clock_start [lindex [lindex [constraints search all CLOCKS] 0 ] 1]
+puts "clock_start = $clock_start"
+set clock_start_column [lindex [lindex [constraints search all CLOCKS] 0 ] 0]
+puts "clock_start_column = $clock_start_column"
+
+#set clock_period [constraints get cell [expr {$clock_start+1}] [expr {$clock_start_column+1}]]
+
+#-----check row number for "inputs" section in constraints.csv---##
+set input_ports_start [lindex [lindex [constraints search all INPUTS] 0 ] 1]
+puts "input_ports_start = $input_ports_start"
+
+
+#-----check row number for "outputs" section in constraints.csv---##
+set output_ports_start [lindex [lindex [constraints search all OUTPUTS] 0 ] 1]
+puts "output_ports_start = $output_ports_start"
 ```
+
+                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                              
