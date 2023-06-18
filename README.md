@@ -255,5 +255,10 @@ puts "output_ports_start = $output_ports_start"
 ```
 ### Output
   <img width="852" alt="image" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/36617733-4e4c-4420-9dcf-ae8363bb8d3b">
-                                                                                                                                                                                                                                                                                                                                     
+                                                                                                                                                                             
+																					    
+ ## DAY3 
+### Code  
+### Output
+ 
                                                                                                                                                                                               
