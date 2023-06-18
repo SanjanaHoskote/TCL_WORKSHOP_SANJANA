@@ -421,5 +421,8 @@ puts "\nInfo: SDC created. Please use constraints in path  $OutputDirectory/$Des
 return
 ```
 ### Output
- 
+ <img width="921" alt="image" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/b99238c5-08ba-461f-afa0-68b673d4d03f">
+ <img width="928" alt="image" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/bde6dec4-a3c9-49ef-9366-082709b68374">
+
+
                                                                                                                                                                                               
