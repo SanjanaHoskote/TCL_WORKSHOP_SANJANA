@@ -1,10 +1,9 @@
 # TCL_WORKSHOP_SANJANA
 ## DAY1
-####
--> Toolbox usage scenario:\
--CSV file not provided\
--Incorrect CSV file\
--"-help" for user guidance\
+#### Toolbox usage scenario:
+- CSV file not provided\
+- Incorrect CSV file\
+- "-help" for user guidance\
 
 ### Output
 
@@ -14,7 +13,7 @@
 ####
 -Autocreation of variables\
 -convertiing .csv to matrix object\
--Computing row numbers of all constraints\
+-Computing row numbers of all constraints
 
 ### Output
 
