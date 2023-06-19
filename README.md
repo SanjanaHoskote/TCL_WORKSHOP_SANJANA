@@ -42,10 +42,10 @@ Netlist\
 Hierarchy check\
 <img width="928" alt="3 3" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/6f47407c-c560-45bc-9548-90ec281ff2b9">
 
-Hierarchy check script generation
+Hierarchy check script generation\
 <img width="926" alt="3 5" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/d9cd1636-3c62-4dd1-bfab-9bd09091f496">
 
-Error handling
+Error handling\
 <img width="524" alt="3 9" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/0db8d587-c548-427c-ac75-d9784e2cef06">
 <img width="554" alt="3 8" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/0f2fc369-5af3-4055-a5b1-8e9e2a274e76">
 
