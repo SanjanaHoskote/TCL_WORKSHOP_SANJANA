@@ -1,9 +1,9 @@
 # TCL_WORKSHOP_SANJANA
 ## DAY1
 #### Toolbox usage scenario:
-- CSV file not provided\
-- Incorrect CSV file\
-- "-help" for user guidance\
+- CSV file not provided
+- Incorrect CSV file
+- "-help" for user guidance
 
 ### Output
 
@@ -11,9 +11,9 @@
 
 ## DAY2 
 ####
--Autocreation of variables\
--convertiing .csv to matrix object\
--Computing row numbers of all constraints
+- Autocreation of variables
+- Convertiing .csv to matrix object
+- Computing row numbers of all constraints
 
 ### Output
 
@@ -21,12 +21,12 @@
                                                                                                                                                            																					    
 ## DAY3 
 ####
--CSV to SDC\
--Clock latency constraints and clock slew constraints in sdc file\
--Categorizing input ports as bits and bus\
--File access and pattern creation\
--Reformatting for fixed space and grepping input ports\
--Input constraints generation
+- CSV to SDC
+- Clock latency constraints and clock slew constraints in sdc file
+- Categorizing input ports as bits and bus
+- File access and pattern creation
+- Reformatting for fixed space and grepping input ports
+- Input constraints generation
 
 ### Output
 
@@ -42,11 +42,11 @@
 
 ## DAY4
 #### 
--Yosys sunthesis tool usage\
--Memory module RTL description\
--Memory functionality and yosys synthesis\
--Hierarchy check and hierarchy check script generation\
--Error handling
+- Yosys sunthesis tool usage
+- Memory module RTL description
+- Memory functionality and yosys synthesis
+- Hierarchy check and hierarchy check script generation
+- Error handling
 
 ### Output
 ####
