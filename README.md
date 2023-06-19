@@ -21,25 +21,25 @@
 
 ## DAY4
 #### 
--Yosys sunthesis tool usage
--Memory module RTL description
--Memory functionality and yosys synthesis
--Hierarchy check and hierarchy check script generation
+-Yosys sunthesis tool usage\
+-Memory module RTL description\
+-Memory functionality and yosys synthesis\
+-Hierarchy check and hierarchy check script generation\
 -Error handling
 
 ### Output
 ####
-Memory RTL description
+Memory RTL description\
 <img width="330" alt="3 4" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/4fe12d99-501e-40ee-8cbd-494d6b62277d">
 
-Synthesis output
+Synthesis output\
 <img width="927" alt="Screenshot 2023-06-19 230547" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/e6be8b80-a3c9-4b93-817a-7469d2b39806">
 <img width="923" alt="3 2" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/07228542-220f-40fb-96f5-cbb83b8606b0">
 
-Netlist
+Netlist\
 <img width="512" alt="3 6" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/f11d01ae-c7a2-455c-87c1-b049daf16a78">
 
-Hierarchy check
+Hierarchy check\
 <img width="928" alt="3 3" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/6f47407c-c560-45bc-9548-90ec281ff2b9">
 
 Hierarchy check script generation
