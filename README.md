@@ -91,9 +91,9 @@ OpenTimer is an open-source timing analysis tool used in digital integrated circ
   Editing output netlist
   <img width="926" alt="5 2" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/eaba5367-f25e-4623-bba7-33e924534b06">
   Comaprison with edited output netlist
-  <img width="925" alt="5 3" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/468d6d43-c0e5-4ba0-af44-6f0ff4b3d0b4">\
+  <img width="925" alt="5 3" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/468d6d43-c0e5-4ba0-af44-6f0ff4b3d0b4">
   procs\
-  <img width="698" alt="5 4" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/b67a3445-268f-481c-a59d-f51cbf642824">\
+  <img width="698" alt="5 4" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/b67a3445-268f-481c-a59d-f51cbf642824">
   Timing analysis\
   <img width="831" alt="5 5" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/080eec2b-bfa0-47b1-b021-4f5e9d7ade7e">
 
