@@ -48,6 +48,9 @@
 - Hierarchy check and hierarchy check script generation
 - Error handling
 
+### YOSYS
+Yosys is an open-source framework for Verilog RTL synthesis. It transforms high-level RTL descriptions into optimized gate-level representations. Popular among hardware designers and researchers, Yosys offers a command-line interface and supports various input formats. It employs advanced synthesis techniques like technology mapping, optimization, and retiming to generate efficient gate-level netlists. With extensive scripting capabilities, it enables customization and automation. Yosys empowers designers to implement complex digital circuits effectively.
+
 ### Output
 ####
 Memory RTL description\
@@ -75,6 +78,12 @@ Error handling\
 - Synthesis main file scripting
 - Output netlist editing (to remove * and / )
 - Procs and viewing .conf
+- opentimer
+
+  ### procs
+Procs in Tcl synthesizes behavioral code into RTL designs, combining Tcl scripting with hardware synthesis capabilities. It enables designers to define complex algorithms and generate efficient hardware implementations, while offering debugging and analysis features for design validation and optimization.
+  ### opentimer
+OpenTimer is an open-source timing analysis tool used in digital integrated circuit design. It provides accurate estimation of circuit delays, setup and hold times, and critical paths, helping designers optimize their designs for performance. With its command-line interface, OpenTimer offers flexibility and can be integrated into various design flows, making it a valuable tool for timing closure and signoff in the semiconductor industry.
 
   ### Output
   <img width="890" alt="5 1" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/10387ce2-90d0-4ea8-9acc-daedc1d35aab">
