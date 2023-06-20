@@ -80,9 +80,9 @@ Error handling\
 - Procs and viewing .conf
 - opentimer
 
-  ### procs
+### procs
 Procs in Tcl synthesizes behavioral code into RTL designs, combining Tcl scripting with hardware synthesis capabilities. It enables designers to define complex algorithms and generate efficient hardware implementations, while offering debugging and analysis features for design validation and optimization.
-  ### opentimer
+### opentimer
 OpenTimer is an open-source timing analysis tool used in digital integrated circuit design. It provides accurate estimation of circuit delays, setup and hold times, and critical paths, helping designers optimize their designs for performance. With its command-line interface, OpenTimer offers flexibility and can be integrated into various design flows, making it a valuable tool for timing closure and signoff in the semiconductor industry.
 
   ### Output
