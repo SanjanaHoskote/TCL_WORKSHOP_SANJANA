@@ -49,7 +49,7 @@
 - Error handling
 
 ### YOSYS
-Yosys is an open-source framework for Verilog RTL synthesis. It transforms high-level RTL descriptions into optimized gate-level representations. Popular among hardware designers and researchers, Yosys offers a command-line interface and supports various input formats. It employs advanced synthesis techniques like technology mapping, optimization, and retiming to generate efficient gate-level netlists. With extensive scripting capabilities, it enables customization and automation. Yosys empowers designers to implement complex digital circuits effectively.
+Yosys is an open-source framework for Verilog RTL synthesis. It transforms high-level RTL descriptions into optimized gate-level representations. Popular among hardware designers and researchers, Yosys offers a command-line interface and supports various input formats. It employs advanced synthesis techniques like technology mapping, optimization, and retiming to generate efficient gate-level netlists. With extensive scripting capabilities, it enables customization and automation.
 
 ### Output
 ####
@@ -83,9 +83,9 @@ Error handling\
 ### procs
 Procs in Tcl synthesizes behavioral code into RTL designs, combining Tcl scripting with hardware synthesis capabilities. It enables designers to define complex algorithms and generate efficient hardware implementations, while offering debugging and analysis features for design validation and optimization.
 ### opentimer
-OpenTimer is an open-source timing analysis tool used in digital integrated circuit design. It provides accurate estimation of circuit delays, setup and hold times, and critical paths, helping designers optimize their designs for performance. With its command-line interface, OpenTimer offers flexibility and can be integrated into various design flows, making it a valuable tool for timing closure and signoff in the semiconductor industry.
+OpenTimer is an open-source timing analysis tool used in digital integrated circuit design. It provides accurate estimation of circuit delays, setup and hold times, and critical paths, helping designers optimize their designs for performance. With its command-line interface, OpenTimer offers flexibility and can be integrated into various design flows.
 
-  ### Output
+### Output
   <img width="890" alt="5 1" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/10387ce2-90d0-4ea8-9acc-daedc1d35aab">\
   Editing output netlist
   <img width="926" alt="5 2" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/eaba5367-f25e-4623-bba7-33e924534b06">
@@ -94,14 +94,16 @@ OpenTimer is an open-source timing analysis tool used in digital integrated circ
   
   procs
   
-  <img width="698" alt="5 4" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/b67a3445-268f-481c-a59d-f51cbf642824">\
+  <img width="698" alt="5 4" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/b67a3445-268f-481c-a59d-f51cbf642824">
+  
+  <img width="323" alt="5 6" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/9375e23a-a25d-4cc7-9f92-2b161782013a">
+
+  <img width="439" alt="5 7" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/248e871f-a51a-4651-9fc3-7e67434b48d2">
+
   Timing analysis
   
   <img width="831" alt="5 5" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/080eec2b-bfa0-47b1-b021-4f5e9d7ade7e">
 
-  <img width="323" alt="5 6" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/9375e23a-a25d-4cc7-9f92-2b161782013a">
-
-  <img width="439" alt="5 7" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/248e871f-a51a-4651-9fc3-7e67434b48d2">
 
 
 
