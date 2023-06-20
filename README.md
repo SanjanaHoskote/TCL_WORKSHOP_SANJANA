@@ -86,8 +86,7 @@ Procs in Tcl synthesizes behavioral code into RTL designs, combining Tcl scripti
 OpenTimer is an open-source timing analysis tool used in digital integrated circuit design. It provides accurate estimation of circuit delays, setup and hold times, and critical paths, helping designers optimize their designs for performance. With its command-line interface, OpenTimer offers flexibility and can be integrated into various design flows, making it a valuable tool for timing closure and signoff in the semiconductor industry.
 
   ### Output
-  <img width="890" alt="5 1" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/10387ce2-90d0-4ea8-9acc-daedc1d35aab">
-#### 
+  <img width="890" alt="5 1" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/10387ce2-90d0-4ea8-9acc-daedc1d35aab">\
   Editing output netlist
   <img width="926" alt="5 2" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/eaba5367-f25e-4623-bba7-33e924534b06">
   Comaprison with edited output netlist
