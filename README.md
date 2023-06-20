@@ -78,7 +78,8 @@ Error handling\
 
   ### Output
   <img width="890" alt="5 1" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/10387ce2-90d0-4ea8-9acc-daedc1d35aab">
-
+#### 
+Editing output netlist
   <img width="926" alt="5 2" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/eaba5367-f25e-4623-bba7-33e924534b06">
 
   <img width="925" alt="5 3" src="https://github.com/SanjanaHoskote/TCL_WORKSHOP_SANJANA/assets/128903809/468d6d43-c0e5-4ba0-af44-6f0ff4b3d0b4">
